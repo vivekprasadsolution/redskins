@@ -19,12 +19,12 @@ if ( ! function_exists('create_booking_email')){
 
 		$config['protocol'] = 'smtp';
 		//$config['smtp_host'] = 'smtp.gmail.com'; 
-		$config['smtp_host'] = 'ssl://smtp.gmail.com';
-		$config['smtp_port']    = '465';
-        $config['smtp_timeout'] = '7';  
-		$config['smtp_user'] = 'jhondoe.q120@gmail.com';
+		$config['smtp_host'] = '';
+		$config['smtp_port']    = '';
+        $config['smtp_timeout'] = '';  
+		$config['smtp_user'] = '';
 		$config['_smtp_auth'] = TRUE;
-		$config['smtp_pass'] = '!Jhondoe1'; 
+		$config['smtp_pass'] = ''; 
 		
 		$config['mailtype']  = 'html';
 		$config['charset']   = 'iso-8859-1';
